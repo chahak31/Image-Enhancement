@@ -1,16 +1,3 @@
-#Methods for Image Enhancement
-
-#Method1
-#cv2.equalizeHist(img)
-
-#Method 2
-#Contrast Limited Adaptive Histogram Equalization
-#create a CLAHE object (Arguments are optional)
-#clahe=cv2.createCLAHE()
-#clahe=cv2.createCLAHE(clipLimit=2.0, tileGridsize=(8,8))
-#apply this object to an image
-#cl1=clahe.apply(img)
-
 import numpy as np
 import cv2 as cv
 from matplotlib import pyplot as plt
