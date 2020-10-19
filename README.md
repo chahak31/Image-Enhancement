@@ -1,10 +1,10 @@
 **Methods for Image Enhancement**
 
-  Method1
+  **Method1
 
     Using cv2.equalizeHist(img)
 
-  Method 2
+  **Method 2
 
     Contrast Limited Adaptive Histogram Equalization or CLAHE
 
